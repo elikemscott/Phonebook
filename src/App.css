@@ -1,0 +1,111 @@
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.nav{
+  background-color: rgb(89, 133, 252);
+  height: 10vh;
+  
+}
+.menu{
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.search{
+  position: relative;
+  top: -53px;
+  left: 140px;
+  width: 17vw;
+}
+
+.user_info{
+  position: relative;
+  top: -60px;
+  margin-left: 10px;
+ 
+  
+}
+
+.user_form{
+  position: relative;
+  top: -20px;
+}
+
+.user_form2{
+  border: 0.5px solid lightgray;
+  height: 55vh;
+  width: 19vw;
+}
+
+.form_label  {
+  position: absolute !important;
+  top: -5px !important; 
+}
+
+h5{
+  margin-left: 20px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.sidenav{
+  height: 98vh;
+  width: 20vw;
+  margin-left: 5px;
+}
+
+.parent{
+  display: flex;
+}
+
+.main{
+  margin-top: 4px;
+width: 80vw;
+border-radius: 5px;
+box-shadow: -6px 10px 10px -5px;
+}
+
+.contact_list{
+  margin-left: 10px;
+}
+
+
